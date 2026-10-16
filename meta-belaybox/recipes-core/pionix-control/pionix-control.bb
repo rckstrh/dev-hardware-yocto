@@ -3,7 +3,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Apache-2.0;md5=89aea4e17d99a7ca
 
 FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
 
-SRC_URI = "git://git@github.com/PionixPublic/pionix-control.git;branch=main;protocol=https \
+SRC_URI = "git://git@github.com/rckstrh/pionix-control.git;branch=fix/paho2-compatibility;protocol=https \
            file://charger_info.yaml \
            file://everest_configs.yaml \
            file://custom_configs \
@@ -13,7 +13,7 @@ SRC_URI = "git://git@github.com/PionixPublic/pionix-control.git;branch=main;prot
 
 S = "${WORKDIR}/git"
 
-SRCREV = "c9f864a50c63d6202e03be99c1dcf9ef1a37cd69"
+SRCREV = "a8a79b205b54f5a307a044bb34ac06244970ef4c"
 PR = "r0"
 
 DEPENDS += " \
