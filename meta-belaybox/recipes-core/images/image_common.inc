@@ -23,7 +23,6 @@ COMMON_PACKAGES = " \
         everest-core \
         everest-common \
         chargebridge \
-        libocpp \
         mosquitto \
         fontconfig \
         ttf-roboto \
